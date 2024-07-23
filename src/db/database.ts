@@ -8,7 +8,7 @@ export class DatabaseManager {
   private db: Database.Database;
 
   constructor() {
-    const dbPath = path.join(__dirname, "../../dist/database.sqlite");
+    const dbPath = path.join(__dirname, "./database.sqlite");
     const dbExists = fs.existsSync(dbPath);
 
     this.db = new Database(dbPath);
