@@ -18,7 +18,9 @@
     "os": "^0.1.2"
   },
   "scripts": {
-    "start": "ts-node src/app.ts"
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "ru": "npm run build && node dist/app.js"
   },
   "author": "h1ghl1kh7"
 }
