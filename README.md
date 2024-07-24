@@ -8,9 +8,9 @@
 
 l1m1t-bot is a Discord bot that streamlines your CTF participation.
 
-## Features
+# Features
 
-### CTF Management
+## CTF Management
 
 All things managed in the database, So you can use the bot without any additional settings.  
 CTF events and other information are stored in the database referenced by the channel ID.
@@ -18,7 +18,7 @@ CTF events and other information are stored in the database referenced by the ch
 There's no need to worry about deleting channels and threads.  
 The bot automatically deletes the channels and threads when the CTF event is deleted.
 
-#### Scheduler
+## Scheduler
 
 The bot automatically sends a message to the announcement channel.  
 The scheduler operates at the following times
@@ -29,15 +29,15 @@ The scheduler operates at the following times
 - 10 minutes before the end of the CTF event
 - the end of the CTF event
 
-### Challenge Management
+## Challenge Management
 
 This bot use the flag to check the challenge is solved.  
 So, you can get all flags of the challenges at once.  
 Also, you can get the number of challenges solved and unsolved.
 
-## Commands
+# Commands
 
-### CTF
+## CTF
 
 `/addctf <event name> <start date> <end date>`  
 Register a CTF event.
@@ -54,7 +54,7 @@ List all CTF events.
 Show the start and end dates of the event.
 And show challenge information that count of challenges unsolved and solved.
 
-### Challenge
+## Challenge
 
 `/addchall <category> <name>`  
 Add a challenge to the category.  
@@ -74,9 +74,9 @@ Show the name of the challenges and solving state.
 If this command is executed in the category channels, it will show the information of the challenges within the category.  
 If this command is executed in the other channels, it will show the information of the all challenges.
 
-## Project Layout
+# Project Layout
 
-### Source Code Layout
+## Source Code Layout
 
 ```plaintext
 ├── app.ts
@@ -104,7 +104,7 @@ If this command is executed in the other channels, it will show the information 
 
 ```
 
-### Database Layout
+## Database Layout
 
 ```plaintext
 Server
