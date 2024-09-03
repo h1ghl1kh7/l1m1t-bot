@@ -142,3 +142,10 @@ Indexes:
 ├── idx_category_serverId on Category(serverId)
 └── idx_challenge_serverId on Challenge(serverId)
 ```
+# Todo
+
+## Features
+
+1. crawling ctftimes.
+2. crawling CTFd based wargame site and download it, and add it's files
+3. submit flags to the CTFd based wargame site at preset time. 
