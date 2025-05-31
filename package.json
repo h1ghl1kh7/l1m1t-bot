@@ -1,6 +1,6 @@
 {
   "name": "l1m1t",
-  "packageManager": "yarn@4.3.1",
+  "packageManager": "pnpm@10.11.0",
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.11",
     "@types/dotenv": "^8.2.0",
@@ -18,9 +18,9 @@
     "os": "^0.1.2"
   },
   "scripts": {
-    "start": "ts-node src/app.ts",
+    "dev": "ts-node src/app.ts",
     "build": "tsc",
-    "ru": "npm run build && node dist/app.js"
+    "start": "pnpm run build && node dist/app.js"
   },
   "author": "h1ghl1kh7"
 }
